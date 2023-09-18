@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    overflow: hidden; /* Clear any floated elements inside the navbar */
+}
+
+.navbar a {
+    float: left; /* Float the menu items to the left */
+    display: block; /* Display each item as a block element */
+    color: white; /* Text color for menu items */
+    text-align: center; /* Center-align the text */
+    padding: 14px 16px; /* Padding for menu items (top/bottom, left/right) */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Background color when hovering over a menu item */
+    color: black; /* Text color when hovering over a menu item */
+}
