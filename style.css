@@ -1,21 +1,35 @@
 body{
-    background-color: aqua;
+    background-color: rgb(202, 231, 236);
 }
 .navbar {
-    background-color: #333; /* Background color for the navbar */
-    overflow: hidden; /* Clear any floated elements inside the navbar */
+    background-color: #c96819; 
+    overflow: hidden; 
 }
-
 .navbar a {
-    float: left; /* Float the menu items to the left */
-    display: block; /* Display each item as a block element */
-    color: white; /* Text color for menu items */
-    text-align: center; /* Center-align the text */
-    padding: 14px 16px; /* Padding for menu items (top/bottom, left/right) */
-    text-decoration: none; /* Remove underline from links */
+    float: left; 
+    display: block; 
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
 }
 
 .navbar a:hover {
-    background-color: #ddd; /* Background color when hovering over a menu item */
-    color: black; /* Text color when hovering over a menu item */
+    background-color: #ddd; 
+    color: black;
+}
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.text {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.image {
+    
+    padding-top: 100px;
+    padding: 100;
 }
