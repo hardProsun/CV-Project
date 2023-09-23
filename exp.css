@@ -1,0 +1,33 @@
+/* Default styles for all screen sizes */
+body {
+  background-color: rgb(222, 233, 229);
+}
+
+#exp1, #exp2, #exp3 {
+  border: 2px solid rgb(247, 243, 240);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  #exp1, #exp2, #exp3 {
+      padding: 20px; /* Reduce padding on smaller screens */
+  }
+}
+
+/* Media query for screens with a minimum width of 1200px */
+@media (min-width: 1200px) {
+  #exp1 {
+      background-color: rgba(81, 125, 206, 0.808); /* Change background color */
+  }
+
+  #exp2 {
+      background-color: rgba(81, 125, 206, 0.808); /* Change background color */
+  }
+
+  #exp3 {
+      background-color: rgba(81, 125, 206, 0.808); /* Change background color */
+  }
+}
+
